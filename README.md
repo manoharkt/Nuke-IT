@@ -11,7 +11,7 @@
 
 ### **NukeIt: When Shift+Delete is not enough.**
 
-**v0.2 Prototype** · Developed by [**Manoharx**](#team)
+**v0.2 Prototype** · Developed by [**Manohar**](#team)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=flat-square)

